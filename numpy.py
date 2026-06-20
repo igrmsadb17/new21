@@ -1,15 +1,12 @@
 import numpy as np 
 
-arr1 = np.array([12, 13, 11, 10, 13])
-arr1
+arr3 = np.arange(2, 5, 1.3)
+arr3
 
-arr1.shape
-arr1.ndim
-arr1.size
-arr1.itemsize
-arr1.dtype
-arr2 = arr1.astype(str)
-arr2.itemsize
-
-import sys
-sys.getsizeof("12")*len(arr1)
+arr3.shape
+arr3.ndim
+arr3.dtype
+arr3.size
+arr3.itemsize
+arr4 = arr3.astype(int)
+arr4.itemsize
